@@ -14,7 +14,7 @@ module.exports = function(options, cb) {
 
     var moduleMetadatas = require('./modules.meta.json');
     var modules = _.map(moduleMetadatas, function (module){
-      return _.merge(module, _.find(repos, {name: module.name}));
+      return _.extend(module, _.find(repos, {name: module.name}));
     });
 
     r_renderTpl({
