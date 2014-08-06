@@ -9,7 +9,7 @@ var r_renderTpl = require('../render-template');
 
 module.exports = function(options, cb) {
 
-  r_getWebFrameworkRepos({}, function(err, repos) {
+  r_getWebFrameworkRepos({limit:100}, function(err, repos) {
     if (err) return cb(err);
 
     // console.log('META',require('../../modules.meta.json'));

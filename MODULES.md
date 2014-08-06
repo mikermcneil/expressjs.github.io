@@ -1,10 +1,6 @@
 # Modules
 
-<%
-// Actually this IS the template file so you SHOULD change it.
-// The warning below is only here because we need to copy it over every time
-// this file is recompiled.
-%>
+
 <!--
 # ~*** ===================================================>
 #
@@ -19,7 +15,7 @@
 # <=================================================== ***~
 -->
 
-There are <%=repos.length%> repos in https://github.com/expressjs.
+There are 55 repos in https://github.com/expressjs.
 
 
  Module                                                                   | Description                                     | `req`         | `res`     | usage                |
@@ -29,6 +25,14 @@ There are <%=repos.length%> repos in https://github.com/expressjs.
 
 
 ### Contributing to this document
+
+To recompile MODULES.md, run:
+
+```shell
+$ node standalone/render-expressjs-modules/bin.js
+```
+
+**Notes:**
 
 + The additional metadata in the table below which was not available on github was curated manually in [`./modules.meta.json`]().
 + The script in [standalone/get-expressjs-repos]() fetches an up-to-date list of all these various repos.  Some of them are relevant, some are not.
