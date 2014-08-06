@@ -15,7 +15,7 @@
 # <=================================================== ***~
 -->
 
-There are 55 modules in https://github.com/expressjs.
+There are 53 modules in https://github.com/expressjs.
 
 
  Module                                        | Description                          | `req`                               | `res`                               | module interface _(i.e. how it's installed/used)_     |
@@ -48,7 +48,7 @@ There are 55 modules in https://github.com/expressjs.
 [response-time](https://github.com/expressjs/response-time)  | X-Response-Time header for node.js             |     |     | ?
 [morgan](https://github.com/expressjs/morgan)  | http request logger middleware for node.js             |     |     | ?
 [cookie-parser](https://github.com/expressjs/cookie-parser)  | cookie parsing middleware             |     |     | ?
-[session](https://github.com/expressjs/session)  | Simple session middleware for Express             |     |     | ?
+[session](https://github.com/expressjs/session)  | Simple session middleware for Express             |     |     | middleware
 [cookie-session](https://github.com/expressjs/cookie-session)  | Simple cookie-based session middleware             |     |     | ?
 [errorhandler](https://github.com/expressjs/errorhandler)  | Development-only error handler middleware             |     |     | ?
 [method-override](https://github.com/expressjs/method-override)  | Override HTTP verbs.             |     |     | ?
@@ -65,7 +65,6 @@ There are 55 modules in https://github.com/expressjs.
 [set-type](https://github.com/expressjs/set-type)  | DEPRECATED - Please use mime-types instead.             |     |     | ?
 [mime-types](https://github.com/expressjs/mime-types)  | The ultimate javascript content-type utility.             |     |     | ?
 [proxy-addr](https://github.com/expressjs/proxy-addr)  | Determine address of proxied request             |     |     | ?
-[style-guide](https://github.com/expressjs/style-guide)  | Expressjs's general style guide             |     |     | ?
 [on-headers](https://github.com/expressjs/on-headers)  | Execute a listener when a response is about to write headers.             |     |     | ?
 [vary](https://github.com/expressjs/vary)  | Update the Vary header of a response             |     |     | ?
 [finalhandler](https://github.com/expressjs/finalhandler)  | Node.js final http responder             |     |     | ?
@@ -74,19 +73,18 @@ There are 55 modules in https://github.com/expressjs.
 [express-paginate](https://github.com/expressjs/express-paginate)  | Paginate middleware             |     |     | ?
 [media-typer](https://github.com/expressjs/media-typer)  | Simple RFC 6838 media type parser and formatter             |     |     | ?
 [templation](https://github.com/expressjs/templation)  | an asynchronous, extensible view system             |     |     | ?
-[expressjs.github.io](https://github.com/expressjs/expressjs.github.io)  |              |     |     | ?
 
 
 
 ### Contributing to this document
 
-+ The additional metadata in the table below which was not available on github was curated manually in [`./modules.meta.json`]().
++ The additional metadata in the table below which was not available on github was curated manually in [`./standalone/render-expressjs-modules/modules.meta.json`]().
 + The script in [standalone/get-expressjs-repos]() fetches an up-to-date list of all these various repos.  Some of them are relevant, some are not.
 + The curated metadata is merged with the up-to-date remote list to generate the table below.
 + Dynamic data from the remote list always takes precedence over what's in the curated metadata.
 + The datasets are merged using each repo's "name" property as a key.
 
-See [`./modules.meta.json`]() to edit the hand-curated metadata.
+See [`./standalone/render-expressjs-modules/modules.meta.json`]() to edit the hand-curated metadata.
 
 Also see md comments in this file for expected output of the table above (in case something goes wrong).
 

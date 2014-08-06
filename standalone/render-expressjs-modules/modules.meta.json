@@ -1,6 +1,5 @@
 [{
 	"id": 1394109,
-  "foob": "test",
 	"name": "express-messages",
 	"description": "Express flash notification message rendering",
 	"html_url": "https://github.com/expressjs/express-messages"
@@ -142,6 +141,8 @@
 }, {
 	"id": 16875250,
 	"name": "session",
+  "req": [".session"],
+  "interface": "middleware",
 	"description": "Simple session middleware for Express",
 	"html_url": "https://github.com/expressjs/session"
 }, {
@@ -225,11 +226,6 @@
 	"description": "Determine address of proxied request",
 	"html_url": "https://github.com/expressjs/proxy-addr"
 }, {
-	"id": 19630470,
-	"name": "style-guide",
-	"description": "Expressjs's general style guide",
-	"html_url": "https://github.com/expressjs/style-guide"
-}, {
 	"id": 19762040,
 	"name": "on-headers",
 	"description": "Execute a listener when a response is about to write headers.",
@@ -269,9 +265,4 @@
 	"name": "templation",
 	"description": "an asynchronous, extensible view system",
 	"html_url": "https://github.com/expressjs/templation"
-}, {
-	"id": 21444988,
-	"name": "expressjs.github.io",
-	"description": "",
-	"html_url": "https://github.com/expressjs/expressjs.github.io"
 }]
