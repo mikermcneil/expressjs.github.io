@@ -5,6 +5,16 @@
 var _ = require('lodash');
 
 
+// Usage:
+//
+// To fetch the list of repos in `expressjs/` as JSON:
+//
+// ```js
+//require('./get-express-repos')({ limit: 100 }, function (err, repos){
+//  // ...
+//});
+//```
+
 
 module.exports = function(options, cb) {
   require('node-machine')

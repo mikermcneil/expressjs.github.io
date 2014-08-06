@@ -1,5 +1,16 @@
 #!/usr/bin/env node
 
+
+// Usage:
+//
+// To fetch the list of repos in `expressjs/` on the command-line:
+//
+//```shell
+//# from the top level of this sub-module
+//$ node ./bin
+//```
+
+
 require('./')({ limit: 100 },function (err, repos){
   if (err) {
     console.error(err);
