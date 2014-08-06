@@ -14,7 +14,17 @@ module.exports = function(options, cb) {
 
     var moduleMetadatas = require('./modules.meta.json');
     var modules = _.map(moduleMetadatas, function (module){
-      return _.extend(module, _.find(repos, {name: module.name}));
+      // Merge repo data on top of manulaly curated module metadata
+      var repoData = _.find(repos, {name: module.name});
+      module = _.extend(module, repoData);
+
+      // Wrap req/res properties in backticks
+      function backtickify (property){
+        return '`'+property+'`';
+      }
+      module.req = _.map(module.req||[], backtickify);
+      module.res = _.map(module.res||[], backtickify);
+      return module;
     });
 
     r_renderTpl({

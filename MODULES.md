@@ -48,7 +48,7 @@ There are 53 modules in https://github.com/expressjs.
 [response-time](https://github.com/expressjs/response-time)  | X-Response-Time header for node.js             |     |     | ?
 [morgan](https://github.com/expressjs/morgan)  | http request logger middleware for node.js             |     |     | ?
 [cookie-parser](https://github.com/expressjs/cookie-parser)  | cookie parsing middleware             |     |     | ?
-[session](https://github.com/expressjs/session)  | Simple session middleware for Express             | .session    |     | middleware
+[session](https://github.com/expressjs/session)  | Simple session middleware for Express             | `.session`    |     | middleware
 [cookie-session](https://github.com/expressjs/cookie-session)  | Simple cookie-based session middleware             |     |     | ?
 [errorhandler](https://github.com/expressjs/errorhandler)  | Development-only error handler middleware             |     |     | ?
 [method-override](https://github.com/expressjs/method-override)  | Override HTTP verbs.             |     |     | ?
