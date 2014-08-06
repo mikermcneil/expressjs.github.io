@@ -1,5 +1,6 @@
 [{
 	"id": 1394109,
+  "foob": "test",
 	"name": "express-messages",
 	"description": "Express flash notification message rendering",
 	"html_url": "https://github.com/expressjs/express-messages"
