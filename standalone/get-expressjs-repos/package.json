@@ -1,0 +1,19 @@
+{
+  "name": "expressjs.github.io",
+  "version": "0.0.0",
+  "description": "The [ExpressJS][expressjs] Organization is a collection of community-owned node.js web modules with shared maintenance. Refactored from [Connect][connect], [Express][express], and [Koa][koa], these modules aim to be small, well-tested, focused, RFC-compliant, and usable by _any_ node.js framework or middleware.",
+  "main": "get-expressjs-repos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/expressjs/expressjs.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/expressjs/expressjs.github.io/issues"
+  },
+  "homepage": "https://github.com/expressjs/expressjs.github.io"
+}
