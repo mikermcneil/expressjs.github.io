@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/expressjs/expressjs.github.io/issues"
   },
-  "homepage": "https://github.com/expressjs/expressjs.github.io"
+  "homepage": "https://github.com/expressjs/expressjs.github.io",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "node-machine": "0.0.5",
+    "machinepack-github": "0.0.5",
+    "fs-extra": "^0.10.0"
+  }
 }
