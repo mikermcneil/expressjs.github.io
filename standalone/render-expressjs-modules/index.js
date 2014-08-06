@@ -17,14 +17,16 @@ module.exports = function(options, cb) {
       return _.merge(module, _.find(repos, {name: module.name}));
     });
 
-    console.log('yey',modules);
     r_renderTpl({
       outputPath: path.resolve(process.cwd(), './MODULES.md'),
       tplPath: path.resolve(__dirname, './.MODULES.tpl.md'),
       locals: {
         modules: modules
       }
-    }, cb);
+    }, function (err) {
+      if (err) return cb(err);
+      return cb(null, modules);
+    });
 
   });
 };

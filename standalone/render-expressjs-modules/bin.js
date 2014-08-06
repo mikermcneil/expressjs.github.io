@@ -12,17 +12,17 @@
 //```
 
 
-require('./')({},function (err, result){
+require('./')({},function (err, modules){
   if (err) {
     console.error(err);
     return process.exit(1);
   }
 
   console.log(
-    'There are %s repos in %s:\n',
-    repos.length<100?repos.length:'at least 100',
+    'There are %s modules in %s:\n',
+    modules.length<100?modules.length:'at least 100',
     'https://github.com/expressjs',
-    repos
+    modules
   );
 });
 

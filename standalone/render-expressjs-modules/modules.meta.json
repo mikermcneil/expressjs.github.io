@@ -62,7 +62,7 @@
 }, {
 	"id": 14570945,
 	"name": "generator",
-	"description": "Express\' application generator",
+	"description": "Express' application generator",
 	"html_url": "https://github.com/expressjs/generator"
 }, {
 	"id": 15150981,
@@ -227,7 +227,7 @@
 }, {
 	"id": 19630470,
 	"name": "style-guide",
-	"description": "Expressjs\'s general style guide",
+	"description": "Expressjs's general style guide",
 	"html_url": "https://github.com/expressjs/style-guide"
 }, {
 	"id": 19762040,

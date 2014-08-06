@@ -10,7 +10,7 @@ var _ = require('lodash');
 
 
 /**
- * 
+ *
  */
 
 module.exports = function renderTemplate(options, cb){
@@ -31,7 +31,7 @@ module.exports = function renderTemplate(options, cb){
     fsx.writeFileSync(options.outputPath,
       _.template(
         fsx.readFileSync(options.tplPath),
-        options.locals
+        _.extend(options.locals, {_:_})
       )
     );
   }
